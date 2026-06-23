@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Noto Serif SC", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-calligraphy: "Ma Shan Zheng", cursive, serif;
+}
+
+/* Custom vertical writing class for traditional calligraphy presentation */
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  letter-spacing: 0.15em;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Custom scroll bar style for traditional linen paper theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(220, 214, 204, 0.3);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(140, 130, 120, 0.4);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(110, 100, 90, 0.6);
+}
