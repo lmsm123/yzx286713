@@ -1,0 +1,8 @@
+{
+  "name": "墨境山水 - 互动意境画",
+  "description": "融合云雾流动、白马喝水涟漪与柳色摇曳的动态交互式中国水墨画，支持风力控制、琴瑟音效、水面轻拂与AI画意解诗。",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
